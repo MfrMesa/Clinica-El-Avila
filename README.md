@@ -1,4 +1,4 @@
-# Modernitation of Clínica El Ávila Web
+# Modernization of Clínica El Ávila Web
 current proyect
 
 
