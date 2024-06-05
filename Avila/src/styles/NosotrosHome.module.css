@@ -1,0 +1,153 @@
+@import url(font.css);
+
+.contenedor{
+    width: 100%;
+    height: 48rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.parrafoContenedor{
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo{
+    color: var(--azulO);
+    font-family: var(--roboto);
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.parrafo{
+    width: 70%;
+    text-align: center;
+    color: var(--gris);
+    font-family: var(--nunito);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+}
+
+
+.parrafo strong{
+    color: var(--greenO);
+}
+
+.contenedorBottom{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 6rem;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.contenedorInnerBottom{
+    background-color: var(--green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    padding-block: 1rem;
+    border-radius: 10%;
+}
+
+.svg { 
+    width: 40px;
+    height: 40px;
+}
+
+.up{
+    margin-top: 1.5rem;
+    color: var(--blanco);
+}
+
+.up:hover{
+    color: var(--greenO);
+}
+
+
+.titulos{
+    color: var(--azulO);
+    font-family: var(--nunito);
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 1.5rem;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  /* Animation state */
+  .show {
+    animation: fadeIn 1s ease-out forwards;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .animation {
+    animation-duration: 1s; 
+    animation-name: fadeIn; 
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards; /* Ensure the animation retains its 
+    visibility: hidden;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+        transform: translatey(50px); 
+        visibility: visible;
+    }
+    to {
+        opacity: 1;
+        transform: translatey(0); 
+    }
+} */

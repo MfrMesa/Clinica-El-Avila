@@ -1,0 +1,168 @@
+@import url('font.css');
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    background-color: var(--blanco);
+}
+
+.logo {
+    display: inline-flex;
+    width: 32%;
+    align-items: center;
+    margin: 0.8rem;
+}
+
+.logoIcon {
+    margin-right: 1rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 160px;
+}
+
+.nombre {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.clinica {
+    font-family: var(--roboto);
+    color: var(--azulO);
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+.avila {
+    font-family: var(--roboto);
+    color: var(--azulO);
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.search {
+    border: none;
+    border-bottom: 2px solid var(--azulO);
+    width: 300px;
+    height: 33px;
+    background: var(--blanco);
+}
+
+.search::placeholder {
+    font-family: var(--roboto);
+    color: var(--azulO);
+    letter-spacing: 0.1rem;
+}
+
+.search:focus {
+    outline: 1px solid var(--azulO);
+}
+
+.cita {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9rem;
+    height: 2.5rem;
+    border-radius: 50px;
+    background-color: var(--green);
+    color: var(--blanco);
+    font-family: var(--roboto);
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    margin-right: 1rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, background 0.3s, color 0.3s, border 0.3s;
+}
+
+.cita svg {
+    margin-left: 0.5rem;
+    width: 22px;
+    height: 20px;
+}
+
+.cita:hover {
+    background: var(--blanco);
+    color: var(--greenO);
+    border: 3px solid var(--greenO);
+    transform: scale(1.05) translateY(-2px);
+}
+
+.cita:active {
+    transform: scale(0.98);
+}
+
+.bottomBar {
+    width: 100%;
+    height: 3rem;
+    background: var(--azulC);
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    box-shadow: 2px 2px 3px 0px rgb(146, 146, 146);
+}
+
+.linksContenedor {
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    gap: 1rem;
+    margin-inline: 9rem;
+    position: relative; /* Add relative positioning to parent */
+}
+
+.links {
+    font-family: var(--roboto);
+    color: var(--blanco);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    transition: ease 0.5s;
+    position: relative;
+}
+
+.links:hover {
+    color: var(--greenO);
+}
+
+.innerLinksContenedor {
+    background-color: var(--blanco);
+    width: max-content;
+    position: absolute;
+    border-bottom: 4px solid var(--green);
+    top: 2rem;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.links:hover .innerLinksContenedor,
+.linksContenedor li:hover .innerLinksContenedor,
+.innerLinksContenedor:hover {
+    display: block;
+}
+
+.innerLinksContenedor ul {
+    margin: 0.8rem 0.5rem;
+}
+
+.innerLinks {
+    font-family: var(--nunito);
+    display: block;
+    color: var(--azulO);
+    list-style: none;
+    line-height: 2.4;
+}
+
+.innerLinks:hover {
+    background-color: #f1f1f1;
+}

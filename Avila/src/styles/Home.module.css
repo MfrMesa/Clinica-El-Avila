@@ -1,0 +1,59 @@
+
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.innerContenedor{
+    width: 100%;
+}
+
+@keyframes down {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes der {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes izq {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animationDown {
+    animation: down 1.5s ease-out forwards;
+}
+
+.animationRigth {
+    animation: der 1.5s ease-out forwards;
+}
+
+.animationLeft {
+    animation: izq 1.5s ease-out forwards;
+}
+
