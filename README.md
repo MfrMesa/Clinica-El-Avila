@@ -1,4 +1,4 @@
-#Modernitation of Clínica El Ávila Web
+# Modernitation of Clínica El Ávila Web
 current proyect
 
 
@@ -8,13 +8,13 @@ Then, I translated these designs into a React application using Vite as a rapid 
 To ensure a smooth and adaptable experience across different devices, I focused on developing CSS styles.
 
 
-#Tech Stack:
+# Tech Stack:
 TYPESCRIPT
 REACT
 CSS
 FIGMA
 
-#How to initiate the project:
+# How to initiate the project:
 Download the Files: Download the source code from the GitHub repository or clone it using Git.
 
 Install Dependencies: Once downloaded, navigate to the project directory in your terminal and install all dependencies using the command npm install.
