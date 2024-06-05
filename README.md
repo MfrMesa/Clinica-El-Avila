@@ -9,10 +9,10 @@ To ensure a smooth and adaptable experience across different devices, I focused 
 
 
 # Tech Stack:
-TYPESCRIPT
-REACT
-CSS
-FIGMA
+TYPESCRIPT </br>
+REACT </br>
+CSS </br>
+FIGMA </br>
 
 # How to initiate the project:
 Download the Files: Download the source code from the GitHub repository or clone it using Git.
