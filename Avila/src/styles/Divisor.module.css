@@ -1,0 +1,19 @@
+.contenedor{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.lineaAzul{
+    width: 85%;
+    height: 3px;
+    background-color: var(--azulO);
+}
+
+
+.lineaVerde{
+    width: 80%;
+    height: 3px;
+    background-color: var(--green);
+}

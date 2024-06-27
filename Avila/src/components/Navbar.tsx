@@ -30,12 +30,12 @@ export default function Navbar() {
                 </div>
                     <div className={classes.bottomBar}>
                         <ul className={classes.linksContenedor}>
-                            <li><Link to="" className={classes.links}>LA CLÍNICA</Link>
+                            <li><Link to="/laclinica" className={classes.links}>LA CLÍNICA</Link>
                                 <div className={classes.innerLinksContenedor}>
                                     <ul>
                                         <li className={classes.innerLinks}>¿Quienes somos?</li>
                                         <li className={classes.innerLinks}>Junta Directiva</li>
-                                        <li className={classes.innerLinks}>Revista "Sentirse Bien"</li>
+                                        <Link to=":revista" className={classes.innerLinks}>Revista "Sentirse Bien"</Link>
                                     </ul>
                                 </div>
                             </li>

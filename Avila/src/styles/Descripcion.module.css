@@ -41,8 +41,8 @@
 .img{
     width: 374px;
     height: 383px;
-    border-radius: 25px 25px 25px 0px;
-    box-shadow: 0px 4px 4px 0px #9a9c9f;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
 }
 
 

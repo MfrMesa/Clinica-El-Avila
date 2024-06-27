@@ -1,0 +1,109 @@
+@import url(font.css);
+
+
+
+.contenedorMision{
+    position: relative;
+    top: -6rem;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+.innerContainer{
+    width: 70rem;
+    background-color: var(--blanco);
+    height: 25rem;
+    padding: 2.5rem;
+}
+
+.titulos{
+    color: var(--azulO);
+    font-family: var(--roboto);
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.mision{
+    color: var(--gris);
+    font-family: var(--nunito);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-block: 3rem;
+    text-align: center;
+}
+
+.descripcion{
+    color: var(--gris);
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    width: 50%;
+    text-align: center;
+    flex-direction: column;
+    font-family: var(--nunito);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-block: 3rem;
+}
+
+.contenedorValores{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5rem;
+    padding: 5rem;
+}
+
+.valoresD,
+.valoresI{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.tituloSecundario{
+    color: var(--azulO);
+    font-family: var(--roboto);
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.imgI{
+    width: 400px;
+    height: 350px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.imgD{
+    width: 400px;
+    height: 350px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.animation {
+    opacity: 0;
+    animation-duration: 2s;
+    animation-name: fadeIn; 
+    animation-fill-mode: forwards; 
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; } 
+    to { opacity: 1; } 
+}
